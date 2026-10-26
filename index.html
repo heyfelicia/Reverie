@@ -1,41 +1,81 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Reverie</title>
+
     <link rel="stylesheet" href="styles.css">
+
+
+        <link rel="stylesheet" href="https://use.typekit.net/cvi5uat.css">
+
 </head>
+
 <body>
-    
-  <div class="container">
+    <div class="container">
 
-    <nav class="navbar">
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                <img src="images/Logo.svg" alt="Reverie Logo">
+            </a>
+            <!--
+            <ul class="nav-links">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Muses</a></li>
+                <li><a href="#">Lookbook</a></li>
+                <li>
+                    <a href="#" class="join-btn">Join the Atelier</a>
+                </li>
+            </ul>-->
+            <div class="hamburger-menu">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+        </nav>
 
-    <a href="index.html" class="logo"><img src="images/Logo.svg" alt="Reverie Logo"></a>
+        <main>
+            <div class="main-left">
+               <h1>X</h1>
 
-    <ul class="nav-links">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Games</a></li>
-        <li><a href="#">Muses</a></li>
-        <li><a href="#">Lookbook</a></li>
-        <li><a href="#">Journal</a></li>
-        <li>
-            <a href="#" class="join-btn">Join the Atelier</a>
-        </li>
-    </ul>
-
-
-</nav>
-
-    <main>
-
-        <h1></h1>
-        <p></p>
-
-    </main>
-
+                <p>
+                    Reverie is a fashion styling game <br> where
+                    imagination meets style.
+                </p>
+                
+                <div class="join">
+                    
+<form class="join" action="https://formspree.io/f/xayvkwqv" method="POST">
+  <label for="email">JOIN THE ATELIER</label>
+  <div class="input-wrapper">
+    <input
+      type="email"
+      id="email"
+      name="email"
+      placeholder="YOUR EMAIL ADDRESS"
+      required
+    >
+    <button type="submit" aria-label="Join the Atelier">
+      x
+    </button>
   </div>
+</form>
 
+                </div>
+                
+            </div>
+
+            <div class="main-right">
+                <img
+                    src="images/Background.png"
+                    alt="Reverie fashion illustration"
+                >
+            </div>
+        </main>
+
+    </div>
 </body>
 </html>
